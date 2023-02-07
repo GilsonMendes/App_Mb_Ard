@@ -1,8 +1,9 @@
 import React from "react";
-import { Text } from 'react-native';
+import {} from 'react-native';
+import Telas from './screens'
 
 export default props => {
     return(
-        <Text>Hello!</Text>
-    )
+        <Telas/>
+    )    
 }
