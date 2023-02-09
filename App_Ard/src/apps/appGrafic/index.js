@@ -20,10 +20,10 @@ export default () => {
                         sections={[
                             {
                                 percentage: 30,
-                                color: '#0FDFF7',
+                                color: '#00FFFF',
                             },
                         ]}
-                        backgroundColor="#84989A"
+                        backgroundColor="#E6E6FA"
                     />
                     <View
                         style={styles.gauge}

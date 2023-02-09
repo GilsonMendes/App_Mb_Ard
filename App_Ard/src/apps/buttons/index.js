@@ -6,8 +6,8 @@ export default props => {
     const toggleSwitch = () => setIsEnabled(previousState => !previousState);
     return(
         <Switch
-                trackColor={{ false: '#932', true: '#093' }}
-                thumbColor={isEnabled ? '#DAF7A6' : '#f4f3f4'}
+                trackColor={{ false: '#E34234', true: '#93C572' }}
+                thumbColor={isEnabled ? '#DFFF00' : '#E6E6FA'}
                 ios_backgroundColor="#3e3e3e"
                 onValueChange={toggleSwitch}
                 value={isEnabled}
