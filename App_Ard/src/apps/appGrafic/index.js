@@ -16,14 +16,16 @@ export default () => {
 
                     <Pie
                         radius={80}
-                        innerRadius={75}
+                        innerRadius={72}
                         sections={[
                             {
-                                percentage: 30,
+                                percentage: 40,
                                 color: '#00FFFF',
                             },
+                            
+                           
                         ]}
-                        backgroundColor="#E6E6FA"
+                        backgroundColor="#FFF"
                     />
                     <View
                         style={styles.gauge}

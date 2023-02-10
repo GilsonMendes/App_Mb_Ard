@@ -21,5 +21,11 @@ export default Styles = StyleSheet.create({
         color: '#FFF',
         fontSize: 22,
         fontWeight: 700
+    },
+    imgIcon:{
+        width: 25, 
+        height: 25, 
+        marginLeft:120, 
+        marginBottom: -20
     }
 })
