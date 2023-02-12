@@ -18,6 +18,8 @@ export default Styles = StyleSheet.create({
     },
 
     txtLeds: {
+        alignItems:'center',
+        justifyContent:'center',
         color: '#FFF',
         fontSize: 22,
         fontWeight: 700
@@ -27,5 +29,17 @@ export default Styles = StyleSheet.create({
         height: 25, 
         marginLeft:120, 
         marginBottom: -20
+    },
+    lamp:{
+        width: 50,
+        height: 50,
+        marginLeft: 70
+    },
+    btnSw:{
+        alignItems:'center',
+        justifyContent:'center',
+        marginLeft: 10,
+        marginBottom: 15
+
     }
 })

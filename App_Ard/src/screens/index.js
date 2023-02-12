@@ -17,6 +17,8 @@ class Telas extends Component {
                         />
                         <AppGrafic />
                         <Apps />
+
+
                     </View>
                 </Container>
 

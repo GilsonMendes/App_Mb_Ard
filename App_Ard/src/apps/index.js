@@ -1,5 +1,5 @@
 import React from "react";
-import { Text, View } from 'react-native';
+import { Text, View, Image } from 'react-native';
 import Buttons from "./buttons";
 import Styles from "./styles";
 export default props => {
@@ -7,11 +7,11 @@ export default props => {
 
         <View style={Styles.appArea}>
             <View style={Styles.statusSw}>
-                <Text style={Styles.txtLeds}>Led 1 </Text>
+                <Text style={Styles.txtLeds}>Lamp 1 </Text>
                 <Buttons />
             </View>
             <View style={Styles.statusSw}>
-                <Text style={Styles.txtLeds}>Led 2 </Text>
+                <Text style={Styles.txtLeds}>Lamp 2 </Text>
                 <Buttons />
             </View>
         </View>
