@@ -10,11 +10,6 @@ import Rotas from '../../rotas'
 
 
 export default props =>{
-
- function numTe(){
-    console.log(num)
- }
- numTe()
     return (
         <View style={styles.container}>
            

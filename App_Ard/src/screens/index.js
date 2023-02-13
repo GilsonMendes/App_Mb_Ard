@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import { StatusBar, View, Text, Image } from 'react-native';
 import Apps from '../apps'
 import AppGrafic from '../apps/appGrafic';
+import Buttons from '../apps/buttons';
 import Styles from '../apps/styles';
 import Container from './stylesGradiente'
 class Telas extends Component {
@@ -20,7 +21,7 @@ class Telas extends Component {
                         />
 
                         <AppGrafic />
-                        <Apps />
+                        <Buttons/>
                     </View>
                 </Container>
 

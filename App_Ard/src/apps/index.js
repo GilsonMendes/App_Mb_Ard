@@ -12,7 +12,7 @@ export default props => {
             </View>
             <View style={Styles.statusSw}>
                 <Text style={Styles.txtLeds}>Lamp 2 </Text>
-                <Buttons />
+                
             </View>
         </View>
 
