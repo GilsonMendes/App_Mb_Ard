@@ -25,7 +25,7 @@ export default props => {
         }
     }
     const lamp2 = () => {
-        if (isEnabled == false) {
+        if (isEnabled2 == false) {
 
             axios.get('http://192.168.100.47/onlamp2').then(response => {
                 console.log("Lamp1 acesa ")
@@ -49,7 +49,7 @@ export default props => {
                     lamp={isEnabled ? 'lamp_ac' : 'lamp_ap'}
                     ios_backgroundColor="#3e3e3e"
                     onValueChange={toggleSwitch}
-                    onChange={props.lampV}
+                    onChange={lamp1}
                     value={isEnabled}
                 />
             </View>
@@ -61,7 +61,7 @@ export default props => {
                     lamp={isEnabled2 ? 'lamp_ac' : 'lamp_ap'}
                     ios_backgroundColor="#3e3e3e"
                     onValueChange={toggleSwitch2}
-                    onChange={props.lampV}
+                    onChange={lamp2}
                     value={isEnabled2}
                 />
             </View>
