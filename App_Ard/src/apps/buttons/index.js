@@ -3,6 +3,7 @@ import { Switch, Image, View, Text } from 'react-native'
 import Styles from '../styles';
 import axios from "axios";
 export default props => {
+    
     const [isEnabled, setIsEnabled] = useState(false);
     const toggleSwitch = () => setIsEnabled(previousState => !previousState);
 

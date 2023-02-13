@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import { StatusBar, View, Text, Image } from 'react-native';
-import Apps from '../apps'
 import AppGrafic from '../apps/appGrafic';
 import Buttons from '../apps/buttons';
 import Styles from '../apps/styles';
