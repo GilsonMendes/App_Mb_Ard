@@ -3,18 +3,19 @@ App com interação com esp 8266
 
 # Sobre o projeto
 Este projeto foi feito sobre o proposito de realizar a conexão de App desenvolvido em React Native com um Esp8266 via Wi-Fi.
-Tendo como objtivo principal capturar a Humidade e Temperatura via sensor DHT11, tendo também realizar o controle de dois LED´S.
-Projeto piloto onde o mesmo cabe muitas melhorias e formas de usa -ló para outros fins.
-Este projeto faz uso de diversas bibliotecas para interface grafica, onde estas bibliotecas podem ser cunstomizadas de acordo com o gosto do usuario. 
+Tendo como objetivo principal capturar a Umidade e Temperatura via sensor DHT11, tendo também realizar o controle de dois LED´S.
+Projeto-piloto onde o mesmo cabe muitas melhorias e formas de usa -ló para outros fins.
+Este projeto usa diversas bibliotecas para interface gráfica, onde estas bibliotecas podem ser customizadas conforme o gosto do usuário. 
 
 Este App foi desenvolvido utilizando a biblioteca React Native. Para 
 usá -lo você vai precisar:
 # 
 1. Node Js Instalado na sua máquina.
 2. Das dependências Node-modules.
-3. Da biblioteca ->  [react-native-pie](https://github.com/nihgwu/react-native-pie).
-4. Da biblioteca -> [styled-components](https://github.com/styled-components/styled-components)
-5. Da biblioteca -> [react-native-linear-gradient](https://github.com/react-native-linear-gradient/react-native-linear-gradient)
+3. Da Biblioteca ->  [react-native-pie](https://github.com/nihgwu/react-native-pie).
+4. Da Biblioteca -> [styled-components](https://github.com/styled-components/styled-components)
+5. Da Biblioteca -> [react-native-linear-gradient](https://github.com/react-native-linear-gradient/react-native-linear-gradient)
+6. Da Biblioteca -> [Axios](https://www.npmjs.com/package/react-native-axios)
 #
 Para instalação do node basta acessar o site -> [Node Js](https://nodejs.org/en/download/).
 ##
