@@ -33,6 +33,8 @@ comando -> npm install -g node-modules, em seu terminal ou promp de comandos.
 # Tecnologias utilizadas
 - Javascript
 - React Native
+- IDE [platformio](https://platformio.org/)
+- Esp8266 [Consulta](https://esp8266-shop.com/esp8266-guide/esp8266-nodemcu-pinout/)
 
 ```bash
 # clonar repositório
