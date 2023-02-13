@@ -13,12 +13,14 @@ class Telas extends Component {
 
                     <View style={Styles.container}>
                         <Image style={Styles.imgIcon}
+                            source={require('../assets/umidade.png')}
+                        />
+                        <Image style={Styles.imgIcon}
                             source={require('../assets/flocosNeve.png')}
                         />
+
                         <AppGrafic />
                         <Apps />
-
-
                     </View>
                 </Container>
 

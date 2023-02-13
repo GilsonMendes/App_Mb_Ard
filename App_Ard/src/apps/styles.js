@@ -25,10 +25,10 @@ export default Styles = StyleSheet.create({
         fontWeight: 700
     },
     imgIcon:{
-        width: 25, 
-        height: 25, 
-        marginLeft:120, 
-        marginBottom: -20
+        width: 20, 
+        height: 20, 
+        marginLeft:150, 
+        marginBottom: -60
     },
     lamp:{
         width: 50,
@@ -41,5 +41,19 @@ export default Styles = StyleSheet.create({
         marginLeft: 10,
         marginBottom: 15
 
+    },
+
+    temp:{
+        fontSize: 24,
+        fontWeight:600,
+        color: '#FFF',
+        marginLeft:5
+    },
+    umi:{
+        fontSize: 20,
+        color:'#FFF',
+        marginLeft:10,
+        fontWeight:600
     }
+   
 })

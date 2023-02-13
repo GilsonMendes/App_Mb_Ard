@@ -6,8 +6,15 @@ import {
     Switch,
 } from 'react-native'
 import Pie from 'react-native-pie'
+import Rotas from '../../rotas'
 
-export default () => {
+
+export default props =>{
+
+ function numTe(){
+    console.log(num)
+ }
+ numTe()
     return (
         <View style={styles.container}>
            
@@ -19,7 +26,7 @@ export default () => {
                         innerRadius={72}
                         sections={[
                             {
-                                percentage: 40,
+                                percentage: 30,
                                 color: '#00FFFF',
                             },
                             
@@ -27,13 +34,14 @@ export default () => {
                         ]}
                         backgroundColor="#FFF"
                     />
+                    
                     <View
                         style={styles.gauge}
                     >
                         <Text
                             style={styles.gaugeText}
                         >
-                            25Cº
+                            <Rotas/>
                         </Text>
                     </View>
                 </View>
@@ -52,12 +60,12 @@ const styles = StyleSheet.create({
         alignItems: 'center',
         justifyContent: 'center',
     },
-    gaugeText: {
+    /* gaugeText: {
         backgroundColor: 'transparent',
         color: '#FFF',
         fontSize: 24,
         fontWeight: 600
-    },
+    }, */
 
     tempArea: {
         alignItems: 'center',
