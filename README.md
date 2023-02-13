@@ -22,7 +22,10 @@ Após instalar o Node js, você ira instalar o pacote node-modules rodando o
 comando -> npm install -g node-modules, em seu terminal ou promp de comandos. 
 
 ## Layout do App
-![Tela 1](https://github.com/GilsonMendes/Projeto_Pomodoro/blob/main/AppPomodoro/LayoutApp/TelaApp.png)
+![Tela 1](https://github.com/GilsonMendes/App_Mb_Ard/blob/main/App_Ard/Imagens_Projeto/Tela%201.png)![Tela 2](https://github.com/GilsonMendes/App_Mb_Ard/blob/main/App_Ard/Imagens_Projeto/Tela%202.png)
+![Tela 3](https://github.com/GilsonMendes/App_Mb_Ard/blob/main/App_Ard/Imagens_Projeto/Tela%203.png)
+## Esp8266
+![Esp8266 ](https://github.com/GilsonMendes/App_Mb_Ard/blob/main/App_Ard/Imagens_Projeto/Esp8266_01.jpeg)
 
 # Tecnologias utilizadas
 - Javascript
@@ -30,11 +33,10 @@ comando -> npm install -g node-modules, em seu terminal ou promp de comandos.
 
 ```bash
 # clonar repositório
-https://github.com/GilsonMendes/Projeto_Pomodoro.git
+https://github.com/GilsonMendes/App_Mb_Ard.git
 
 # instalar dependências
 npm install -g node-modules
-npm install react-native-sound --save
 
 # executar o projeto
 No promp ou terminal rode o comando:
