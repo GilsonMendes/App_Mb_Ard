@@ -17,6 +17,8 @@ usá -lo você vai precisar:
 5. Da Biblioteca -> [react-native-linear-gradient](https://github.com/react-native-linear-gradient/react-native-linear-gradient)
 6. Da Biblioteca -> [Axios](https://www.npmjs.com/package/react-native-axios)
 #
+Você pode instalar o Axios pelo comando -> yarn add axios. [Yarn](https://yarnpkg.com/getting-started/install)
+#
 Para instalação do node basta acessar o site -> [Node Js](https://nodejs.org/en/download/).
 ##
 Após instalar o Node js, você ira instalar o pacote node-modules rodando o 
