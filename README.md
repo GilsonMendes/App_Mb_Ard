@@ -35,7 +35,9 @@ comando -> npm install -g node-modules, em seu terminal ou promp de comandos.
 - React Native
 - IDE [platformio](https://platformio.org/)
 - Esp8266 [Consulta](https://esp8266-shop.com/esp8266-guide/esp8266-nodemcu-pinout/)
-
+## Usando o Esp8266
+Para utilizar o Esp8266 você precisara compilar o código-fonte -> https://github.com/GilsonMendes/App_Mb_Ard/blob/main/ProControl/src/main.cpp,
+e depois rodar ele no Esp8266 
 ```bash
 # clonar repositório
 https://github.com/GilsonMendes/App_Mb_Ard.git
